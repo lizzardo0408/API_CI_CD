@@ -44,6 +44,4 @@ jobs:
           push: true
           tags: 
           040872040872/fdl123:latest
-          040872040872/fdl123:v9:${{github.num_number}}
-      
-
+          040872040872/fdl123:${{github.num_number}}
